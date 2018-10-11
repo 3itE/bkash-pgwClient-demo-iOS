@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		9DCC5EC420DFA61700BB9743 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC5EC320DFA61700BB9743 /* AppDelegate.swift */; };
-		9DCC5EC620DFA61700BB9743 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC5EC520DFA61700BB9743 /* ViewController.swift */; };
+		9DCC5EC620DFA61700BB9743 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC5EC520DFA61700BB9743 /* HomeViewController.swift */; };
 		9DCC5EC920DFA61700BB9743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCC5EC720DFA61700BB9743 /* Main.storyboard */; };
 		9DCC5ECB20DFA61800BB9743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DCC5ECA20DFA61800BB9743 /* Assets.xcassets */; };
 		9DCC5ECE20DFA61800BB9743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DCC5ECC20DFA61800BB9743 /* LaunchScreen.storyboard */; };
 		9DCC5ED920DFA61800BB9743 /* PgwMerchantDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC5ED820DFA61800BB9743 /* PgwMerchantDemoTests.swift */; };
+		9DCC5EE420DFBDC000BB9743 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DCC5EE320DFBDC000BB9743 /* WebViewController.swift */; };
+		9DCC5EE620E0B58F00BB9743 /* checkout.html in Resources */ = {isa = PBXBuildFile; fileRef = 9DCC5EE520E0B58F00BB9743 /* checkout.html */; };
+		9DCC5EE820E0BA7000BB9743 /* jquery-1.8.3.min.js in Resources */ = {isa = PBXBuildFile; fileRef = 9DCC5EE720E0BA7000BB9743 /* jquery-1.8.3.min.js */; };
+		9DCC5EEA20E0BABA00BB9743 /* checkoutSuccess.html in Resources */ = {isa = PBXBuildFile; fileRef = 9DCC5EE920E0BABA00BB9743 /* checkoutSuccess.html */; };
+		9DCC5EEC20E0BE9500BB9743 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 9DCC5EEB20E0BE9500BB9743 /* index.html */; };
+		9DCC5EEE20E1097C00BB9743 /* bKash-checkout-local3.js in Resources */ = {isa = PBXBuildFile; fileRef = 9DCC5EED20E1097C00BB9743 /* bKash-checkout-local3.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +34,7 @@
 /* Begin PBXFileReference section */
 		9DCC5EC020DFA61700BB9743 /* PgwMerchantDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PgwMerchantDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCC5EC320DFA61700BB9743 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9DCC5EC520DFA61700BB9743 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DCC5EC520DFA61700BB9743 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9DCC5EC820DFA61700BB9743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DCC5ECA20DFA61800BB9743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DCC5ECD20DFA61800BB9743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +42,12 @@
 		9DCC5ED420DFA61800BB9743 /* PgwMerchantDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PgwMerchantDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCC5ED820DFA61800BB9743 /* PgwMerchantDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PgwMerchantDemoTests.swift; sourceTree = "<group>"; };
 		9DCC5EDA20DFA61800BB9743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DCC5EE320DFBDC000BB9743 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		9DCC5EE520E0B58F00BB9743 /* checkout.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = checkout.html; sourceTree = "<group>"; };
+		9DCC5EE720E0BA7000BB9743 /* jquery-1.8.3.min.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "jquery-1.8.3.min.js"; sourceTree = "<group>"; };
+		9DCC5EE920E0BABA00BB9743 /* checkoutSuccess.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = checkoutSuccess.html; sourceTree = "<group>"; };
+		9DCC5EEB20E0BE9500BB9743 /* index.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		9DCC5EED20E1097C00BB9743 /* bKash-checkout-local3.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "bKash-checkout-local3.js"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +89,18 @@
 		9DCC5EC220DFA61700BB9743 /* PgwMerchantDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9DCC5EE520E0B58F00BB9743 /* checkout.html */,
+				9DCC5EE720E0BA7000BB9743 /* jquery-1.8.3.min.js */,
+				9DCC5EE920E0BABA00BB9743 /* checkoutSuccess.html */,
+				9DCC5EED20E1097C00BB9743 /* bKash-checkout-local3.js */,
 				9DCC5EC320DFA61700BB9743 /* AppDelegate.swift */,
-				9DCC5EC520DFA61700BB9743 /* ViewController.swift */,
+				9DCC5EC520DFA61700BB9743 /* HomeViewController.swift */,
+				9DCC5EE320DFBDC000BB9743 /* WebViewController.swift */,
 				9DCC5EC720DFA61700BB9743 /* Main.storyboard */,
 				9DCC5ECA20DFA61800BB9743 /* Assets.xcassets */,
 				9DCC5ECC20DFA61800BB9743 /* LaunchScreen.storyboard */,
 				9DCC5ECF20DFA61800BB9743 /* Info.plist */,
+				9DCC5EEB20E0BE9500BB9743 /* index.html */,
 			);
 			path = PgwMerchantDemo;
 			sourceTree = "<group>";
@@ -177,9 +195,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DCC5EEC20E0BE9500BB9743 /* index.html in Resources */,
+				9DCC5EEA20E0BABA00BB9743 /* checkoutSuccess.html in Resources */,
+				9DCC5EEE20E1097C00BB9743 /* bKash-checkout-local3.js in Resources */,
 				9DCC5ECE20DFA61800BB9743 /* LaunchScreen.storyboard in Resources */,
 				9DCC5ECB20DFA61800BB9743 /* Assets.xcassets in Resources */,
+				9DCC5EE620E0B58F00BB9743 /* checkout.html in Resources */,
 				9DCC5EC920DFA61700BB9743 /* Main.storyboard in Resources */,
+				9DCC5EE820E0BA7000BB9743 /* jquery-1.8.3.min.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +220,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DCC5EC620DFA61700BB9743 /* ViewController.swift in Sources */,
+				9DCC5EC620DFA61700BB9743 /* HomeViewController.swift in Sources */,
+				9DCC5EE420DFBDC000BB9743 /* WebViewController.swift in Sources */,
 				9DCC5EC420DFA61700BB9743 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -359,7 +383,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QVKJ726CXL;
 				INFOPLIST_FILE = PgwMerchantDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -376,7 +402,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QVKJ726CXL;
 				INFOPLIST_FILE = PgwMerchantDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

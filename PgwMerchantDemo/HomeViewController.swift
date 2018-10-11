@@ -8,11 +8,17 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class HomeViewController: UIViewController {
+    
+    @IBAction func nextViewButtonPressed(_ sender: Any) {
+        print("Button pressed")
+        self.performSegue(withIdentifier: "WebViewSegue", sender: self)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        print("View has loaded")
     }
 
     override func didReceiveMemoryWarning() {
